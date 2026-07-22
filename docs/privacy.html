@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Privacy policy for Things Mailman, an open-source macOS utility.">
+  <title>Things Mailman Privacy Policy</title>
+  <style>
+    :root {
+      font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color-scheme: light dark;
+    }
+
+    body {
+      margin: 0;
+      background: Canvas;
+      color: CanvasText;
+      line-height: 1.6;
+    }
+
+    main {
+      max-width: 46rem;
+      margin: 0 auto;
+      padding: 3rem 1.25rem 5rem;
+    }
+
+    h1,
+    h2 {
+      line-height: 1.2;
+    }
+
+    h1 {
+      margin-bottom: 0.25rem;
+    }
+
+    h2 {
+      margin-top: 2rem;
+    }
+
+    .updated {
+      margin-top: 0;
+      color: GrayText;
+    }
+
+    a {
+      color: LinkText;
+    }
+
+    li + li {
+      margin-top: 0.5rem;
+    }
+
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Things Mailman Privacy Policy</h1>
+    <p class="updated">Last updated: July 22, 2026</p>
+
+    <p>
+      Things Mailman is an open-source macOS utility developed by Maxime de Chalendar.
+      It forwards messages you select in Apple Mail to the private Things address
+      you provide. Things Mailman has no developer-operated server and does not include
+      advertising, analytics, tracking, or third-party SDKs.
+    </p>
+
+    <h2>Information handled by the app</h2>
+    <p>Things Mailman handles the following information solely to provide its features:</p>
+    <ul>
+      <li>
+        <strong>Your Things Mailman address.</strong> The private <code>@things.email</code>
+        address you enter is stored locally in the app's sandboxed preferences.
+      </li>
+      <li>
+        <strong>App preferences.</strong> Your keyboard shortcut, launch-at-login choice,
+        menu bar visibility, setup status, and per-account filing preferences are stored
+        locally on your Mac.
+      </li>
+      <li>
+        <strong>Selected Mail messages.</strong> When you invoke the app, it asks Apple Mail
+        to forward the messages you selected. A forwarded message may include its subject,
+        sender and recipient information, body, headers, and attachments. Apple Mail sends
+        the forward using your configured mail account.
+      </li>
+      <li>
+        <strong>Session history.</strong> Message subjects, Mail account identifiers, and
+        processing results may appear in the app's history for the current session. This
+        history is held in memory and is cleared when the app quits.
+      </li>
+      <li>
+        <strong>Local diagnostics.</strong> The app writes operational status, counts, and
+        error codes to Apple's unified logging system. These logs do not include message
+        contents or your Things Mailman address and are not sent to the developer.
+      </li>
+    </ul>
+
+    <h2>Data collection and tracking</h2>
+    <p>
+      The developer does not receive or collect your Mail messages, Things Mailman address,
+      preferences, usage history, or diagnostic logs. Things Mailman does not sell personal
+      information, create advertising profiles, or track you across apps or websites.
+    </p>
+    <p>
+      This policy page is hosted by GitHub Pages. GitHub may automatically process technical
+      information about visits under its
+      <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">privacy statement</a>.
+      The developer has not added analytics or advertising to this page and does not receive
+      visitor logs from Things Mailman.
+    </p>
+
+    <h2>Forwarding to Things</h2>
+    <p>
+      Sending a selected message is an action you initiate. Things Mailman directs Apple Mail
+      to forward that message to the private address you supplied. The message is transported
+      by your email provider and received and processed by Cultured Code's Mail to Things
+      service. Cultured Code states that Mail to Things collects the content of forwarded
+      emails and protects personal information as described in its
+      <a href="https://culturedcode.com/privacy/">privacy policy</a>.
+    </p>
+    <p>
+      Things Mailman is an independent project and is not affiliated with or endorsed by
+      Cultured Code. The developer does not control the retention or deletion of information
+      held by your email provider or Cultured Code.
+    </p>
+
+    <h2>Mail automation permission</h2>
+    <p>
+      Things Mailman requests macOS permission to control Apple Mail. It uses this permission
+      to inspect your current selection, create and send forwards, discover filing locations,
+      and perform the filing action you configured after Mail accepts a forward. You can revoke
+      this permission at any time in System Settings under Privacy &amp; Security &gt; Automation.
+    </p>
+
+    <h2>Retention and deletion</h2>
+    <ul>
+      <li>Session history is deleted when Things Mailman quits.</li>
+      <li>Preferences remain on your Mac until you change them or remove the app's data.</li>
+      <li>
+        To remove all locally stored Things Mailman data, quit the app and delete
+        <code>~/Library/Containers/com.maximedechalendar.ThingsMailman</code>.
+      </li>
+      <li>
+        To manage or delete information stored by Things Cloud, use the controls provided by
+        Things or contact Cultured Code as described in its privacy policy.
+      </li>
+    </ul>
+    <p>
+      Because the developer does not operate a server or receive your data, there is no remote
+      Things Mailman account or developer-held personal data to delete.
+    </p>
+
+    <h2>Changes to this policy</h2>
+    <p>
+      Material changes will be published on this page and reflected by the “Last updated” date.
+      The policy's revision history is also available in the project's
+      <a href="https://github.com/DCMaxxx/thingsmailman">public source repository</a>.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      For questions about this policy or the app, email
+      <a href="mailto:maxime.dechalendar@me.com">maxime.dechalendar@me.com</a>.
+    </p>
+  </main>
+</body>
+</html>
